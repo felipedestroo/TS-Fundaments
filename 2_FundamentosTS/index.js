@@ -11,17 +11,23 @@ console.log(typeof (a));
 console.log(b.toPrecision(2));
 // 2 - conhecendo a string 
 var firstName = "Felipe ";
-var secondName = "Destro";
+var lastName = "Destro";
 var client = "Raimundo";
-function nome(firstName, secondName) {
-    return firstName + secondName;
+function nome(firstName, lastName) {
+    return firstName + lastName;
 }
-console.log("Ol\u00E1, ".concat(nome(firstName, secondName)));
+console.log("Ol\u00E1, ".concat(nome(firstName, lastName)));
 console.log(typeof (firstName));
-console.log(secondName.toUpperCase());
-console.log(firstName.toLowerCase() + secondName.toUpperCase());
+console.log(lastName.toUpperCase());
+console.log(firstName.toLowerCase() + lastName.toUpperCase());
 function hi(client) {
     console.log("Ol\u00E1, ".concat(client));
-    console.log("Meu nome \u00E9 ".concat(nome(firstName, secondName)));
+    console.log("Meu nome \u00E9 ".concat(nome(firstName, lastName)));
 }
 console.log(hi(client));
+// 3 - Boolean
+var t = true;
+var f = false;
+console.log(t, f);
+console.log(typeof t);
+console.log(typeof f);

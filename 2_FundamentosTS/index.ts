@@ -21,21 +21,31 @@ console.log(b.toPrecision(2))
 
   const firstName: string = "Felipe "
 
-  const secondName: string = "Destro"
+  const lastName: string = "Destro"
 
   const client: string = "Raimundo"
 
-  function nome(firstName: string, secondName: string) {
-    return firstName + secondName
+  function nome(firstName: string, lastName: string) {
+    return firstName + lastName
   }
 
-  console.log(`Olá, ${nome(firstName, secondName)}`)
+  console.log(`Olá, ${nome(firstName, lastName)}`)
   console.log(typeof(firstName))
-  console.log(secondName.toUpperCase())
-  console.log(firstName.toLowerCase() + secondName.toUpperCase())
+  console.log(lastName.toUpperCase())
+  console.log(firstName.toLowerCase() + lastName.toUpperCase())
 
   function hi(client: string) {
     console.log(`Olá, ${client}`)
-    console.log(`Meu nome é ${nome(firstName, secondName)}`)
+    console.log(`Meu nome é ${nome(firstName, lastName)}`)
   }
   console.log(hi(client))
+
+  // 3 - Boolean
+
+  const t: boolean = true
+  const f: boolean = false
+  
+  console.log(t, f)
+
+   console.log(typeof t)
+   console.log(typeof f)
