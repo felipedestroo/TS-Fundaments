@@ -49,3 +49,11 @@ console.log(b.toPrecision(2))
 
    console.log(typeof t)
    console.log(typeof f)
+
+  //  4 - Annotation e Inferência
+
+  let ann: string = "Annotation"
+  let inf = "Inferência"
+
+
+  // inf = 1
