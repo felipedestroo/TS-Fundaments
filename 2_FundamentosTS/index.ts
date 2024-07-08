@@ -57,3 +57,23 @@ console.log(b.toPrecision(2))
 
 
   // inf = 1
+
+  console.log("Testando tsc -w")
+
+  // Desafio - 2 
+
+  let num = 23
+
+  let newString = String(num)
+
+  console.log("Meu número é o " + newString)
+
+  const newNumber: number = 26
+
+  const numberToString = newNumber.toString()
+
+  const myPrintNumber = `Meu número é o ${numberToString}`
+
+  console.log(myPrintNumber)
+
+  
