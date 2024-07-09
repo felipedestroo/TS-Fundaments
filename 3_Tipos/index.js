@@ -38,3 +38,23 @@ setTimeout(function () {
     // console.log(parseFloat(sallary))
     // console.log(sallary)
 }, 2000);
+// 6 - Tipos de objeto
+function passCoordinates(values) {
+    console.log(`X: ${values.x}`);
+    console.log(`Y: ${values.y}`);
+}
+const objCoord = { x: 329, y: 2398.3 };
+console.log(objCoord);
+function emprego(cargos) {
+    console.log(`1 Opcao: ${cargos.cargo1}`);
+    console.log(`2 Opcao: ${cargos.cargo2}`);
+}
+const funcionario = { cargo1: "zelador", cargo2: "secretario" };
+console.log(funcionario);
+function produtos(marca) {
+    console.log(`Opcao 1: ${marca.op1}`);
+    console.log(`Opcao 2: ${marca.op2}`);
+    console.log(`Opcao 3: ${marca.op3}`);
+}
+const products = { op1: "Ype", op2: "Mr. Musculo", op3: "Vanish" };
+console.log(products);
