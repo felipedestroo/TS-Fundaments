@@ -58,7 +58,7 @@ function conc(c: string, d: string): string {
   return c + d 
 }
 
-console.log(conc("Felipe ", "Destro"))
+// console.log(conc("Felipe ", "Destro"))
 
 // 5- funcao anonima
 
@@ -108,3 +108,19 @@ function produtos(marca: {op1: string, op2: string, op3: string}) {
 const products = {op1: "Ype", op2: "Mr. Musculo", op3: "Vanish"}
 
 console.log(products)
+
+// 7 - Propriedas opcionais
+
+function cliente(nome: string, sobrenome?: string) {
+  console.log(`Nome do Cliente: ${nome}`)
+  if(sobrenome) {
+    console.log(`Nome do Cliente: ${sobrenome}`)
+  }
+}
+
+cliente("Gustavo", "Destro")
+cliente("Marina", "Silva")
+cliente("Matheus")
+
+
+

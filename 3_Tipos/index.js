@@ -31,7 +31,7 @@ console.log(soma(10, 4));
 function conc(c, d) {
     return c + d;
 }
-console.log(conc("Felipe ", "Destro"));
+// console.log(conc("Felipe ", "Destro"))
 // 5- funcao anonima
 setTimeout(function () {
     const sallary = 227356753.27625;
@@ -58,3 +58,13 @@ function produtos(marca) {
 }
 const products = { op1: "Ype", op2: "Mr. Musculo", op3: "Vanish" };
 console.log(products);
+// 7 - Propriedas opcionais
+function cliente(nome, sobrenome) {
+    console.log(`Nome do Cliente: ${nome}`);
+    if (sobrenome) {
+        console.log(`Nome do Cliente: ${sobrenome}`);
+    }
+}
+cliente("Gustavo", "Destro");
+cliente("Marina", "Silva");
+cliente("Matheus");
