@@ -68,3 +68,13 @@ function cliente(nome, sobrenome) {
 cliente("Gustavo", "Destro");
 cliente("Marina", "Silva");
 cliente("Matheus");
+// 8 - validando argumento opcional
+// Maneira correta de se fazer a validação
+function advancedGreeting(firstName, lastName) {
+    if (lastName !== undefined) {
+        return `Olá, ${firstName} ${lastName}, tudo bem?`;
+    }
+    return `Olá, ${firstName}, tudo bem?`;
+}
+console.log(advancedGreeting("Victor", "Mendes"));
+console.log(advancedGreeting("Bruno"));
