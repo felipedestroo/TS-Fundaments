@@ -137,3 +137,11 @@ function advancedGreeting(firstName: string, lastName?: string) {
 console.log(advancedGreeting("Victor", "Mendes"))
 console.log(advancedGreeting("Bruno"))
 
+// 9 - Union Types
+
+function showBalance(balance: string | number) {
+  console.log(`O saldo da sua conta é de R$${balance}`)
+}
+
+showBalance(3000)
+showBalance("3000")
